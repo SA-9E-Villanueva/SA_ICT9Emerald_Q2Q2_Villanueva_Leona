@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build-a-Bot: Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ৎ Build-a-Bot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Register</a>
+                    </li>
+
+                </ul>
+            </div>
+                    <!-- Search bar -->
+            <form class="d-flex">
+                  <input class="form-control" type="text" placeholder="search…">
+                  <button class="btn btn-success" type="button">Search</button>
+
+            </form>
+
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+            </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container my-5">
+        <div class="header">
+            <h1><b>ৎ Build-a-Bot</b></h1>
+            <p><b>For those who want to join!</b></p>
+        </div>
+        <div class="content">
+            <h2 style="color: darkgreen;"><center><b>⟡ Registration</b></center></h2>
+            <center><img src="https://c4.wallpaperflare.com/wallpaper/445/202/501/movie-laputa-castle-in-the-sky-wallpaper-preview.jpg" id="regiimage" alt="Robotics Club Image" class="img-fluid mb-3"></center>
+          
+          
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label"><b>Name</b></label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+
+                <!-- Age -->
+                <div class="mb-3">
+                    <label for="age" class="form-label"><b>Age</b></label>
+                    <input type="number" class="form-control" id="age" placeholder="Enter your age">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label"><b>Email Address</b></label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                
+                <!-- Phone -->
+                <div class="mb-3">
+                    <label for="phone" class="form-label"><b>Phone Number</b></label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                </div>
+                <!-- Topics -->
+                <div class="mb-3">
+                    <label class="form-label"><b>Topics of Interest</b></label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topic1" value="robotics">
+                        <label class="form-check-label" for="topic1">Robotics Design</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topic2" value="coding">
+                        <label class="form-check-label" for="topic2">Coding</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topic3" value="ai">
+                        <label class="form-check-label" for="topic3">Artificial Intelligence</label>
+                    </div>
+                </div>
+
+                <!-- Level -->
+                <div class="mb-3">
+                    <label class="form-label"><b>Experience Level</b></label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="beginner" value="beginner">
+                        <label class="form-check-label" for="beginner">Beginner</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="intermediate" value="intermediate">
+                        <label class="form-check-label" for="intermediate">Intermediate</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="level" id="advanced" value="advanced">
+                        <label class="form-check-label" for="advanced">Advanced</label>
+                    </div>
+                </div>
+                
+                <!-- Projects -->
+                <div class="mb-3">
+                    <label for="projects" class="form-label"><b>Select a (Robot) Project</b></label>
+                    <select class="form-select" id="projects">
+                        <option selected disabled>Choose...</option>
+                        <option value="autonomous-robot">Small Robot</option>
+                        <option value="robot-arm">Regular-sized Robot</option>
+                        <option value="drone">GINORMOUS Robot</option>
+                    </select>
+                </div>
+                
+                <!-- Reason -->
+                <div class="mb-3">
+                    <label for="reason" class="form-label"><b>Why do you want to join?</b></label>
+                    <textarea class="form-control" id="reason" rows="4" placeholder="Write your reason here"></textarea>
+                </div>
+                <!-- Submit -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p style="color: white;"><b>ʚ Images and content sourced from</b><br><a href="https://br.pinterest.com/pin/697635798503634981/" target="_blank"><b>Pinterest</a></p>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
